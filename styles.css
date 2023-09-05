@@ -97,12 +97,28 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .item {
-    flex: 1 0 30%;
+    flex: 1 0 50%;
     margin-bottom: 2rem;
     min-width: 15rem;
     max-width: 25rem;
+    border: 1px;
+}
+
+.item-image {
+    image-rendering: optimizeSpeed;
+    aspect-ratio: 5 / 7;
+    width: 100%;
     border: 1px solid black;
+}
+
+.item-name {
+
+}
+
+.item-price {
+
 }
