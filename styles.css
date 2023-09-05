@@ -1,3 +1,20 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+body {
+    position: relative;
+    padding: 0;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    max-width: 100rem;
+}
+
 .header {
     position: relative;
     /* min-height: 30vh; */
@@ -71,4 +88,21 @@
     background-repeat: no-repeat;
     background-position: 0% 0%;
     list-style: none;
+}
+
+
+/* SHOP PAGE */
+
+.items-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 0 30%;
+    margin-bottom: 2rem;
+    min-width: 15rem;
+    max-width: 25rem;
+    border: 1px solid black;
 }
