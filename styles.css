@@ -1,0 +1,74 @@
+.header {
+    position: relative;
+    /* min-height: 30vh; */
+    width: 100rem;
+    aspect-ratio: 16/9;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('./Header.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation--item[title="shop"] {
+    background: url('./shop-removebg-preview.png');
+    width: 10rem;
+    height: 5.5rem;
+}
+
+.navigation--item[title="shop"]:active {
+    background: url('./shop_page-removebg-preview.png');
+    width: 10rem;
+    height: 5.5rem;
+    background-position: left 0 top 0;
+}
+
+.navigation--item[title="collab"] {
+    background: url('./collabs-removebg-preview.png');
+}
+
+.navigation--item[title="collab"]:active {
+    background: url('./collabs_page-removebg-preview.png');
+}
+
+.navigation--item[title="portfolio"] {
+    background: url('./portfolio-removebg-preview.png');
+}
+
+.navigation--item[title="portfolio"]:active {
+    background: url('./portfolio_page-removebg-preview.png');
+}
+
+.navigation--item[title="blog"] {
+    background: url('./blog-removebg-preview.png');
+}
+
+.navigation--item[title="blog"]:active {
+    background: url('./blog_page-removebg-preview.png');
+}
+
+.navigation--item[title="contact"] {
+    background: url('./contact-removebg-preview.png');
+}
+
+.navigation--item[title="contact"]:active {
+    background: url('./contact_page-removebg-preview.png');
+}
+
+.navigation--item {
+    background-size: contain;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    list-style: none;
+}
