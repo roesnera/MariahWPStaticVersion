@@ -19,6 +19,8 @@ html, * {
     padding: 0;
     margin: 0;
     --lr-gutter: 4rem;
+    --pink: #ddb4b8;
+    --green: #757D4B;
 }
 
 body {
